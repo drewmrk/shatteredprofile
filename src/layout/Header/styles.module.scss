@@ -1,0 +1,16 @@
+.header {
+  display: flex;
+  flex-direction: row;
+  box-shadow: 1px 1px 5px 0px #00000047;
+  background-color: white;
+  justify-content: center;
+  padding: 5px 10px;
+  &Title {
+    color: black;
+    font-weight: 400;
+    &Link {
+      color: inherit;
+      text-decoration: none;
+    }
+  }
+}

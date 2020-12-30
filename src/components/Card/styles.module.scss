@@ -1,0 +1,25 @@
+.card {
+  @media (max-width: 799px) {
+    width: 95%;
+  }
+  @media (min-width: 800px) {
+    width: 65%;
+  }
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  box-shadow: 1px 1px 5px 0px #00000047;
+  border-radius: 10px;
+  margin: 20px auto;
+  align-items: center;
+  padding: 10px 20px;
+  &Title {
+    font-weight: 400;
+  }
+  
+  &Info {
+    line-height: 170%;
+    font-size: 1.1em;
+    margin: 10px;
+  }
+}
