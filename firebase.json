@@ -1,5 +1,6 @@
 {
   "hosting": {
+    "site": "shatteredprofile",
     "public": "build",
     "ignore": [
       "firebase.json",
