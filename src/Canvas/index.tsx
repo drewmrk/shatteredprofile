@@ -21,7 +21,7 @@ const Canvas = () => {
   const [numberOfSquares, setNumberOfSquares] = useState(20)
   const [canvasImg, setCanvasImg] = useState('')
   const [transparencyOn, setTransparencyOn] = useState(false)
-  const [imageType, setImageType] = useState('WebP')
+  const [imageType, setImageType] = useState('PNG')
   const [imageSize, setImageSize] = useState(400)
 
   useEffect(() => {

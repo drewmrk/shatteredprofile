@@ -1,6 +1,7 @@
 {
   "compilerOptions": {
-    "incremental": false,
+    "incremental": true,
+    "composite": true,
     "pretty": true,
     "removeComments": true,
     "tsBuildInfoFile": ".tsbuildinfo",
